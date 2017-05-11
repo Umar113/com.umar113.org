@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CURE IT UP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_place">Map</string>
+    <string name="login">Login</string>
+    <string name="hint">Email</string>
+    <string name="register">Sign Up</string>
+    <string name="college_name">ABHA COLLEGE OF ENGINEERING \n AND \n TECHNOLOGY</string>
+    <string name="emergency_name">Emergency</string>
+    <string-array name="doctors_fields">
+
+
+        <item>MAP</item>
+        <item>CARDIOLOGIST</item>
+
+        <item>DENTIST</item>
+
+        <item>DERMATOLOGIST</item>
+
+        <item>DIETITIAN</item>
+
+        <item>EARNOSE</item>
+
+        <item>GASTROENTEROLOGIST</item>
+
+        <item>GENERAL PHYSICIAN</item>
+
+        <item>GYNECOLOGIST</item>
+
+        <item>HOMEOPATH</item>
+
+        <item>NEUROLOGIST</item>
+
+        <item>OPHTHALMOLOGIST</item>
+
+        <item>ORTHOPEDIST</item>
+
+        <item>PEDIATRICIAN</item>
+
+        <item>PHYSIOTHERAPIST</item>
+
+        <item>PSYCHIATRIST</item>
+        <item>UROLOGY</item>
+        <item>AYURVEDA</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

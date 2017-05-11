@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.health">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/health_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.DoctorListActivity"/>
+        <activity android:name=".activities.DentistActivity" />
+        <activity android:name=".activities.AyurvedaActivity" />
+        <activity android:name=".activities.GynecologistActivity" />
+        <activity android:name=".activities.HomeopathActivity" />
+        <activity android:name=".activities.CardiologistActivity" />
+        <activity android:name=".activities.NeurologistActivity" />
+        <activity android:name=".activities.PsychiatristActivity" />
+        <activity android:name=".activities.GastroenterologistActivity" />
+        <activity android:name=".activities.GeneralphysicianActivity" />
+        <activity android:name=".activities.PhysiotherapistActivity" />
+        <activity android:name=".activities.PediatricianActivity" />
+        <activity android:name=".activities.UrologyActivity" />
+        <activity android:name=".activities.OrthopedistActivity" />
+        <activity android:name=".activities.OphthalmologistActivity" />
+        <activity android:name=".activities.DermatologistActivity" />
+        <activity android:name=".activities.DietitionActivity" />
+        <activity android:name=".activities.EarnoseActivity" />
+        <activity android:name=".activities.MapsActivity" />
+        <activity android:name=".activities.EmergencyActivity" />
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>
